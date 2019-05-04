@@ -2,213 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bf02979-0d32-42d2-b4ba-04655c31f940" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/jade/includes/_header.jade" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/jade/includes/_scripts.jade" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/jade/templates/about.jade" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/jade/templates/index.jade" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/js/jquery-3.3.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/helpers/modulo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/partials/releated-docs.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/reset-css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sass/_footer.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sass/_general.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sass/_header.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sass/_vars.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sass/index.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sass/libs.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/CONTRIBUTING.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/Gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/Gruntfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/ISSUE_TEMPLATE.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/ROADMAP.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/ROADMAP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/dist/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/dist/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/ajax-loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/dist/assets/ajax-loader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.theme.green.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/dist/assets/owl.theme.green.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.theme.green.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/dist/assets/owl.theme.green.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.video.play.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/dist/assets/owl.video.play.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/owl.carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/dist/owl.carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/dist/owl.carousel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/assets/css/animate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/css/docs.theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/assets/css/docs.theme.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/img/bird_blue_32.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/assets/img/bird_blue_32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/img/download.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/assets/img/download.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/img/feature-drag.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/assets/img/feature-drag.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/img/feature-modern.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/assets/img/feature-modern.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/img/feature-module.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/assets/img/feature-module.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/img/feature-options.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/assets/img/feature-options.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/img/feature-responsive.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/assets/img/feature-responsive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/img/feature-zombie.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/assets/img/feature-zombie.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/img/owl-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/assets/img/owl-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/img/twitter_25.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/assets/img/twitter_25.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/js/foundation.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/assets/js/foundation.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/owlcarousel/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/assets/owlcarousel/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/ajax-loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/ajax-loader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/css/owl.carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/css/owl.carousel.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.green.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.green.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.green.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.green.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.video.play.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.video.play.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/vendors/foundation.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/assets/vendors/foundation.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/vendors/highlight.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/assets/vendors/highlight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.mousewheel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.mousewheel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/demos/animate.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/demos/animate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/demos/autoheight.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/demos/autoheight.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/demos/autoplay.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/demos/autoplay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/demos/autowidth.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/demos/autowidth.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/demos/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/demos/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/demos/center.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/demos/center.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/demos/demos.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/demos/demos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/demos/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/demos/events.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/demos/lazyLoad.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/demos/lazyLoad.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/demos/merge.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/demos/merge.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/demos/mousewheel.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/demos/mousewheel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/demos/responsive.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/demos/responsive.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/demos/rtl.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/demos/rtl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/demos/stagepadding.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/demos/stagepadding.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/demos/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/demos/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/demos/urlhashnav.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/demos/urlhashnav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/demos/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/demos/video.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/docs/api-classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/docs/api-classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/docs/api-events.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/docs/api-events.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/docs/api-options.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/docs/api-options.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/docs/dev-buildin-plugins.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/docs/dev-buildin-plugins.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/docs/dev-external.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/docs/dev-external.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/docs/dev-plugin-api.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/docs/dev-plugin-api.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/docs/dev-styles.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/docs/dev-styles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/docs/started-faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/docs/started-faq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/docs/started-installation.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/docs/started-installation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/docs/started-welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/docs/started-welcome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/docs/support-changelog.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/docs/support-changelog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/docs/support-contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/docs/support-contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/docs/support-contributing.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/docs/support-contributing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/assets/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/assets/css/animate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/assets/img/bird_blue_32.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/assets/img/bird_blue_32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/assets/img/download.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/assets/img/download.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/assets/img/feature-drag.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/assets/img/feature-drag.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/assets/img/feature-modern.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/assets/img/feature-modern.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/assets/img/feature-module.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/assets/img/feature-module.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/assets/img/feature-options.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/assets/img/feature-options.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/assets/img/feature-responsive.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/assets/img/feature-responsive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/assets/img/feature-zombie.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/assets/img/feature-zombie.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/assets/img/owl-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/assets/img/owl-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/assets/img/twitter_25.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/assets/img/twitter_25.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/assets/js/foundation.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/assets/js/foundation.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/assets/scss/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/assets/scss/_settings.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/assets/scss/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/assets/scss/custom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/assets/scss/demos.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/assets/scss/demos.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/assets/scss/docs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/assets/scss/docs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/assets/scss/docs.theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/assets/scss/docs.theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/assets/scss/highlight.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/assets/scss/highlight.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/assets/vendors/foundation.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/assets/vendors/foundation.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/assets/vendors/highlight.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/assets/vendors/highlight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/assets/vendors/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/assets/vendors/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/assets/vendors/jquery.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/assets/vendors/jquery.min.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/assets/vendors/jquery.mousewheel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/assets/vendors/jquery.mousewheel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/data/classes.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/data/classes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/data/events.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/data/events.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/data/features.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/data/features.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/data/options.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/data/options.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/helpers/modulo.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/jade/includes/_footer.jade" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/helpers/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/helpers/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/layouts/demos.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/layouts/demos.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/layouts/docs.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/layouts/docs.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/layouts/home.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/layouts/home.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/animate.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/animate.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/autoheight.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/autoheight.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/autoplay.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/autoplay.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/autowidth.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/autowidth.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/basic.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/basic.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/center.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/center.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/demos.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/demos.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/events.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/events.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/lazyLoad.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/lazyLoad.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/merge.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/merge.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/mousewheel.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/mousewheel.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/responsive.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/responsive.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/rtl.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/rtl.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/stagepadding.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/stagepadding.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/test.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/test.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/urlhashnav.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/urlhashnav.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/video.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/video.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/api-classes.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/api-classes.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/api-events.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/api-events.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/api-options.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/api-options.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/dev-buildin-plugins.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/dev-buildin-plugins.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/dev-external.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/dev-external.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/dev-plugin-api.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/dev-plugin-api.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/dev-styles.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/dev-styles.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/started-faq.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/started-faq.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/started-installation.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/started-installation.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/started-welcome.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/started-welcome.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/support-changelog.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/support-changelog.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/support-contact.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/support-contact.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/support-contributing.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/support-contributing.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/pages/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/pages/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/partials/footer.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/partials/footer.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/partials/head.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/partials/head.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/partials/header.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/partials/header.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/partials/home-carousel.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/partials/home-carousel.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/partials/home-features.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/partials/home-features.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/partials/home-hero.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/partials/home-hero.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/partials/home-teaser-text.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/partials/home-teaser-text.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/partials/javascripts.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/partials/javascripts.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/partials/releated-docs.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/jade/includes/_head.jade" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/partials/sidenav-docs.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/partials/sidenav-docs.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/partials/title.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/partials/title.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs_src/templates/partials/vendors.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/docs_src/templates/partials/vendors.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/src/img/ajax-loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/src/img/ajax-loader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/src/img/owl.video.play.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/src/img/owl.video.play.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/src/js/.jscsrc" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/src/js/.jscsrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/src/js/.jshintrc" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/src/js/.jshintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/src/js/owl.animate.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/src/js/owl.animate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/src/js/owl.autoheight.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/src/js/owl.autoheight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/src/js/owl.autoplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/src/js/owl.autoplay.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/src/js/owl.autorefresh.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/src/js/owl.autorefresh.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/src/js/owl.carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/js/owl.carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/src/js/owl.hash.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/src/js/owl.hash.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/src/js/owl.lazyload.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/src/js/owl.lazyload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/src/js/owl.navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/src/js/owl.navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/src/js/owl.support.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/src/js/owl.support.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/src/js/owl.support.modernizr.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/src/js/owl.support.modernizr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/src/js/owl.video.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/src/js/owl.video.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/src/scss/_animate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/src/scss/_animate.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/src/scss/_autoheight.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/src/scss/_autoheight.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/src/scss/_core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/src/scss/_core.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/src/scss/_lazyload.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/src/scss/_lazyload.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/src/scss/_theme.default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/src/scss/_theme.default.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/src/scss/_theme.green.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/src/scss/_theme.green.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/src/scss/_theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/src/scss/_theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/src/scss/_video.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/src/scss/_video.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/src/scss/owl.carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/src/scss/owl.carousel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/src/scss/owl.theme.default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/src/scss/owl.theme.default.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/src/scss/owl.theme.green.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/src/scss/owl.theme.green.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/test/unit/autoplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/test/unit/autoplay.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/test/unit/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/owl-carousel/OwlCarousel2-2.3.4/test/unit/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/jade/includes/_header.jade" beforeDir="false" afterPath="$PROJECT_DIR$/app/jade/includes/_header.jade" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/jade/templates/index.jade" beforeDir="false" afterPath="$PROJECT_DIR$/app/jade/templates/index.jade" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/_general.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_general.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/_header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_header.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/_vars.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_vars.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/index.sass" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -217,7 +21,77 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/jade/includes/_header.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/sass/_header.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="115" column="15" lean-forward="true" selection-start-line="115" selection-start-column="15" selection-end-line="115" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/sass/_general.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-55">
+              <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/sass/libs.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/sass/index.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/sass/_vars.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/libs/reset-css/reset.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="100" selection-start-line="100" selection-end-line="100" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>conta</find>
+      <find>header_</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -226,26 +100,27 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/app/sass/_general.sass" />
-        <option value="$PROJECT_DIR$/app/sass/_vars.sass" />
-        <option value="$PROJECT_DIR$/app/sass/index.sass" />
         <option value="$PROJECT_DIR$/app/sass/_footer.sass" />
-        <option value="$PROJECT_DIR$/app/sass/_header.sass" />
         <option value="$PROJECT_DIR$/app/jade/includes/_head.jade" />
         <option value="$PROJECT_DIR$/app/jade/includes/_scripts.jade" />
         <option value="$PROJECT_DIR$/app/jade/includes/_footer.jade" />
-        <option value="$PROJECT_DIR$/app/jade/includes/_header.jade" />
         <option value="$PROJECT_DIR$/app/jade/templates/about.jade" />
-        <option value="$PROJECT_DIR$/app/jade/templates/index.jade" />
         <option value="$PROJECT_DIR$/app/sass/libs.sass" />
+        <option value="$PROJECT_DIR$/app/jade/templates/index.jade" />
+        <option value="$PROJECT_DIR$/app/css/index.css" />
+        <option value="$PROJECT_DIR$/app/sass/index.sass" />
+        <option value="$PROJECT_DIR$/app/sass/_vars.sass" />
+        <option value="$PROJECT_DIR$/app/jade/includes/_header.jade" />
+        <option value="$PROJECT_DIR$/app/sass/_general.sass" />
+        <option value="$PROJECT_DIR$/app/sass/_header.sass" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="1941" />
+    <option name="y" value="28" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -255,116 +130,48 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="test_gulp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_gulp" type="462c0819:PsiDirectoryNode" />
+              <item name="firstgulp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="firstgulp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="test_gulp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_gulp" type="462c0819:PsiDirectoryNode" />
+              <item name="firstgulp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="firstgulp" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="test_gulp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_gulp" type="462c0819:PsiDirectoryNode" />
+              <item name="firstgulp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="firstgulp" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="test_gulp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_gulp" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_gulp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_gulp" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="jade" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_gulp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_gulp" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="jade" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_gulp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_gulp" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="jade" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_gulp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_gulp" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_gulp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_gulp" type="462c0819:PsiDirectoryNode" />
+              <item name="firstgulp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="firstgulp" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="libs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="test_gulp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_gulp" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-              <item name="owl-carousel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_gulp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_gulp" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-              <item name="owl-carousel" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_gulp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_gulp" type="462c0819:PsiDirectoryNode" />
+              <item name="firstgulp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="firstgulp" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="libs" type="462c0819:PsiDirectoryNode" />
               <item name="reset-css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="test_gulp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_gulp" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_gulp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_gulp" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_gulp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_gulp" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_gulp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_gulp" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_gulp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+              <item name="firstgulp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="firstgulp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -374,15 +181,16 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\openserver\OpenServer\domains\test_gulp\app\libs\owl-carousel\js" />
-      <recent name="C:\openserver\OpenServer\domains\test_gulp\app\libs\owl-carousel\css" />
-      <recent name="C:\openserver\OpenServer\domains\test_gulp\app\libs\owl-carousel" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\openserver\OpenServer\domains\test_gulp\app\libs\reset-css" />
       <recent name="C:\openserver\OpenServer\domains\test_gulp\app\js" />
       <recent name="C:\openserver\OpenServer\domains\test_gulp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\openserver\OpenServer\domains\firstgulp\app\img" />
+      <recent name="C:\openserver\OpenServer\domains\test_gulp\app\libs\owl-carousel\js" />
+      <recent name="C:\openserver\OpenServer\domains\test_gulp\app\libs\owl-carousel\css" />
+      <recent name="C:\openserver\OpenServer\domains\test_gulp\app\libs\owl-carousel" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -410,6 +218,11 @@
       <workItem from="1555429392556" duration="850000" />
       <workItem from="1555430439040" duration="4105000" />
       <workItem from="1555434677625" duration="1430000" />
+      <workItem from="1555744583181" duration="418000" />
+      <workItem from="1555745933934" duration="712000" />
+      <workItem from="1555747322582" duration="2911000" />
+      <workItem from="1556035169328" duration="5349000" />
+      <workItem from="1556617251409" duration="6190000" />
     </task>
     <task id="LOCAL-00001" summary="v.0.0.2">
       <created>1555430841899</created>
@@ -422,17 +235,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6385000" />
+    <option name="totallyTimeSpent" value="21965000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24886535" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14765458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Gulp" order="3" side_tool="true" />
+      <window_info id="npm" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.70726174" weight="0.32850242" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -440,8 +256,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32850242" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" visible="true" weight="0.32850242" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.32850242" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4977307" visible="true" weight="0.1971831" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50226927" side_tool="true" weight="0.32850242" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -463,13 +279,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_vars.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/jquery-3.3.1.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -480,22 +289,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/index.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/common.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_header.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/_footer.sass">
       <provider selected="true" editor-type-id="text-editor">
@@ -504,36 +299,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_general.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/jade/templates/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/jade/templates/about.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/libs/reset-css/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5972" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/libs.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -545,20 +314,17 @@
         <state relative-caret-position="-1938" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/index.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/jade/includes/_header.jade">
+    <entry file="file://$PROJECT_DIR$/app/jade/includes/_footer.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/jade/includes/_footer.jade">
+    <entry file="file://$PROJECT_DIR$/app/jade/templates/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        <state relative-caret-position="68">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -569,10 +335,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/libs.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/jade/includes/_scripts.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/libs.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/reset-css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="100" selection-start-line="100" selection-end-line="100" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_vars.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/index.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_general.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-55">
+          <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_header.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="115" column="15" lean-forward="true" selection-start-line="115" selection-start-column="15" selection-end-line="115" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/jade/includes/_header.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>

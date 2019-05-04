@@ -1,2 +1,120 @@
 header
-  background-color: green
+  border-bottom: 1px solid $border
+
+
+
+.header__nav
+  padding: 35px 45px
+  border-right: 1px solid $border
+
+
+.header__nav_line
+  position: relative
+  padding: 2px 10px
+  border-bottom: 2px solid $link
+
+.header__nav_line:before
+  content: ''
+  top: 15px
+  right: 0
+  left: 0
+  position: absolute
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: $link;
+
+.header__nav_line:after
+  content: ''
+  top: 9px
+  right: 0
+  left: 0
+  position: absolute
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: $link;
+
+
+.header
+  position: relative
+  z-index: 10
+  background-color: $black
+  box-shadow: 0 10px 10px rgba(0, 0, 0, .2)
+
+
+
+.header.fixed
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+
+.header_logo
+  padding: 30px
+
+
+.header_menu
+  display: flex
+  justify-content: space-between
+.header_menu li
+  padding: 40px 16px
+
+
+
+.header_menu li a
+
+
+
+.header_top
+  width: 100%
+  display: flex
+  justify-content: space-between
+  align-items: center
+  flex-wrap: wrap
+  border: 1px solid $border
+
+
+.menu__wrapper
+  display: flex
+  justify-content: flex-start
+  align-items: center
+  flex-wrap: wrap
+
+
+.menu_item:not(:last-child)
+  margin-right: calc(15px + .78vw)
+
+
+.menu_link
+  color: rgba(39, 39, 39, 1)
+  text-decoration: none
+  font-size: 14px
+  font-family: 'PoppinsMedium', sans-serif
+
+
+
+
+.header_cart
+  padding: 15px 15px
+
+.header_register
+  padding: 10px 15px
+
+.header_register p
+  padding: 10px 18px
+  border: 2px solid $cart
+  border-radius: 30px
+
+.header_bottom
+  width: 100%
+  display: flex
+  justify-content: flex-start
+
+.header_main_menu
+  padding: 20px 15px
+  display: flex
+  justify-content: flex-start
+
+.header_main_menu li
+  padding: 20px 15px

@@ -1,1 +1,34 @@
 header
+    div.container
+        div.header_wrapper
+            div.header_top
+                div.header__nav
+                    span.header__nav_line
+                div.header_logo
+                    a(href="/")
+                        img.logo_image(src="/img/logo.png" alt="Image Title")
+                div.header_menu_container
+                    ul.header_menu
+                        li: a(href="#") Home
+                        li: a(href="#") Devices
+                        li: a(href="#") Delivery & Payment
+                        li: a(href="#") Guarantee
+                        li: a(href="#") About Us
+                div.header_cart
+                    cart
+                    p 0
+
+                div.header_register
+                    p sign in
+            div.header_bottom
+                div.header_bottom_menu
+                    ul.header_main_menu
+                        li: a(href="#") Top Sales
+                        li: a(href="#") Brand Focus
+                        li: a(href="#") Hi-tech
+                        li: a(href="#") Best Sellers
+                        li: a(href="#") Projects
+                        li: a(href="#") Support
+                 div.header_bottom_search
+                    i.search_icon
+                    nput(type="text", name="search")

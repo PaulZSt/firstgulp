@@ -1,2 +1,119 @@
+*, :before, :after
+  box-sizing: border-box;
+
 body
-  color: $black
+  min-width: 320px;
+  color: rgba(97, 97, 97, 1);
+  font-family: 'PoppinsRegular', sans-serif;
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 1);
+
+
+h1, h2, h3, h4, h5, h6
+  color: rgba(49, 49, 49, 1);
+
+
+h1
+  font-family: "LibreBaskerville", sans-serif;
+  font-size: calc(25px + 2.73vw); /*60px*/
+  margin-bottom: calc(20px + 2.34vw); /*50px*/
+
+
+h2
+  font-family: "LibreBaskervilleBold", sans-serif;
+  font-size: calc(20px + 2.34vw); /*50px*/
+  margin-bottom: calc(20px + 2.34vw); /*50px*/
+
+
+h3
+  font-weight: 600;
+  font-size: calc(15px + 1.17vw); /*30px*/
+  margin-bottom: 10px;
+
+
+h4
+  font-weight: 600;
+  font-size: calc(15px + .78vw); /*25px*/
+  margin-bottom: calc(15px + 1.95vw) /*40px*/
+
+
+h5
+  font-family: "PoppinsMedium", sans-serif;
+  font-size: calc(15px + .39vw); /*20px*/
+  margin-bottom: calc(15px + 1.95vw) /*40px*/
+
+
+h6
+  font-weight: 600;
+  font-size: calc(15px + .23px); /*18px*/
+  margin-bottom: 15px;
+
+.headline h2 span
+  position: relative;
+  z-index: 2;
+
+
+.headline h2:after
+  content: attr(data-count);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  color: rgba(246, 246, 246, 1);
+  font-size: calc(50px + 17.18vw);
+  font-family: 'PoppinsMedium';
+
+
+.headline_section
+  text-align: center;
+  margin-bottom: calc(20px + 4.68vw);
+
+
+.headline_section .headline h2:after
+  right: 0;
+  color: rgba(240, 240, 240, 1);
+
+
+.fix_headline
+  position: relative;
+
+
+p
+  /*margin-bottom: calc(15px + 1.95vw); 40px*/
+
+
+a
+  color: rgba(58,58,58,1)
+
+
+img
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+
+
+.container
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+
+
+
+.button
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: calc(25px + 5.07vw);
+  background-color: rgba(252, 95, 69, 1);
+  padding: 20px calc(20px + 2.34vw);
+  border-radius: 30px;
+  transition: all .5s;
+
+
+.button:hover
+  background-color: rgba(56, 198, 149, 1);
+
+

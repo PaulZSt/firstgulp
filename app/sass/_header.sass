@@ -1,7 +1,8 @@
 header
+
+
+header .container_fluid
   border-bottom: 1px solid $border
-
-
 
 .header__nav
   padding: 35px 45px
@@ -19,9 +20,9 @@ header
   right: 0
   left: 0
   position: absolute
-  display: block;
-  width: 20px;
-  height: 2px;
+  display: block
+  width: 20px
+  height: 2px
   background-color: $link;
 
 .header__nav_line:after
@@ -30,9 +31,9 @@ header
   right: 0
   left: 0
   position: absolute
-  display: block;
-  width: 20px;
-  height: 2px;
+  display: block
+  width: 20px
+  height: 2px
   background-color: $link;
 
 
@@ -41,7 +42,6 @@ header
   z-index: 10
   background-color: $black
   box-shadow: 0 10px 10px rgba(0, 0, 0, .2)
-
 
 
 .header.fixed
@@ -57,12 +57,10 @@ header
 .header_menu
   display: flex
   justify-content: space-between
+
 .header_menu li
   padding: 40px 16px
 
-
-
-.header_menu li a
 
 
 
@@ -72,7 +70,6 @@ header
   justify-content: space-between
   align-items: center
   flex-wrap: wrap
-  border: 1px solid $border
 
 
 .menu__wrapper
@@ -93,8 +90,6 @@ header
   font-family: 'PoppinsMedium', sans-serif
 
 
-
-
 .header_cart
   padding: 15px 15px
 
@@ -109,12 +104,29 @@ header
 .header_bottom
   width: 100%
   display: flex
-  justify-content: flex-start
+  justify-content: space-between
+  align-items: center
 
 .header_main_menu
   padding: 20px 15px
   display: flex
   justify-content: flex-start
+  width: 800px
+
+
+.header_main_menu ul
+  padding: 20px 15px
+
 
 .header_main_menu li
   padding: 20px 15px
+
+.header_main_menu .last_item
+  margin-left: auto;
+
+.header_bottom_search
+
+.search_icon:before
+  width: 20px
+  height: 20px
+  content: '\1F50E'

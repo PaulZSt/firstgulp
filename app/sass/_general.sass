@@ -1,12 +1,17 @@
 *, :before, :after
   box-sizing: border-box;
 
+@include font-face("montserratblack", '../fonts/Montserrat/Montserrat-Black')
+@include font-face("montserratregular", '../fonts/Montserrat/Montserrat-Regular')
+@include font-face("crimson-roman", '../fonts/Crimson/crimson-roman-webfont')
+
+
 body
-  min-width: 320px;
-  color: rgba(97, 97, 97, 1);
-  font-family: 'PoppinsRegular', sans-serif;
-  font-size: 15px;
-  background-color: rgba(255, 255, 255, 1);
+  min-width: 320px
+  color: rgba(97, 97, 97, 1)
+  font-family: "montserratregular"
+  font-size: 15px
+  background-color: rgba(255, 255, 255, 1)
 
 
 h1, h2, h3, h4, h5, h6
@@ -14,16 +19,15 @@ h1, h2, h3, h4, h5, h6
 
 
 h1
-  font-family: "LibreBaskerville", sans-serif;
+
   font-size: calc(25px + 2.73vw); /*60px*/
   margin-bottom: calc(20px + 2.34vw); /*50px*/
 
 
 h2
-  font-family: "LibreBaskervilleBold", sans-serif;
   font-size: calc(20px + 2.34vw); /*50px*/
   margin-bottom: calc(20px + 2.34vw); /*50px*/
-
+  font-family: "montserratregular"
 
 h3
   font-weight: 600;
@@ -108,17 +112,16 @@ img
 
 
 .button
-  color: rgba(255, 255, 255, 1);
-  text-decoration: none;
-  text-transform: uppercase;
-  margin-bottom: calc(25px + 5.07vw);
-  background-color: rgba(252, 95, 69, 1);
-  padding: 20px calc(20px + 2.34vw);
-  border-radius: 30px;
-  transition: all .5s;
+  color: rgba(255, 255, 255, 1)
+  text-decoration: none
+  text-transform: uppercase
+  margin-bottom: calc(25px + 5.07vw)
+  background-color: rgba(252, 95, 69, 1)
+  padding: 20px calc(20px + 2.34vw)
+  border-radius: 30px
+  transition: all .5s
 
 
 .button:hover
-  background-color: rgba(56, 198, 149, 1);
-
-
+  background-color: rgba(56, 198, 149, 1)
+  @include size(2em)

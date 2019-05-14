@@ -11,7 +11,7 @@ header .container_fluid
 
 .header__nav_line
   position: relative
-  padding: 2px 10px
+  padding: 1px 10px
   border-bottom: 2px solid $link
 
 .header__nav_line:before
@@ -43,7 +43,6 @@ header .container_fluid
   background-color: $black
   box-shadow: 0 10px 10px rgba(0, 0, 0, .2)
 
-
 .header.fixed
   position: fixed
   top: 0
@@ -60,6 +59,13 @@ header .container_fluid
 
 .header_menu li
   padding: 40px 16px
+  a
+    font-family: "montserratregular"
+    font-size: 14px
+    font-weight: bold
+    text-decoration: none
+    &:hover
+      color: $linktwo
 
 
 
@@ -106,6 +112,20 @@ header .container_fluid
   display: flex
   justify-content: space-between
   align-items: center
+  a
+    font-family: "montserratregular"
+    font-size: 14px
+    font-weight: bold
+    text-decoration: none
+    color: $linktwo
+    &:hover
+      color: $link
+    &.active
+      color: $link
+
+
+.header_bottom_menu
+  border-right: 1px solid $border
 
 .header_main_menu
   padding: 20px 15px

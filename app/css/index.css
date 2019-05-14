@@ -143,6 +143,9 @@ img {
   height: 2em;
   width: 2em; }
 
+.page_content {
+  background-color: #e4e5e7; }
+
 header .container_fluid {
   border-bottom: 1px solid #f2f2f2; }
 
@@ -401,6 +404,130 @@ header .container_fluid {
     right: 0;
     -webkit-border-radius: 50% !important;
             border-radius: 50% !important; }
+
+.filter_wrapper {
+  padding: 50px; }
+  .filter_wrapper .container {
+    height: 80px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+    background-color: white;
+    color: #b9bed1;
+    text-transform: uppercase;
+    font-family: "montserratregular";
+    font-size: 12px;
+    font-weight: bold; }
+
+.sort_filter {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 230px;
+      -ms-flex: 1 1 230px;
+          flex: 1 1 230px;
+  height: 100%;
+  border-right: 1px solid #f2f2f2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  flex: 1 1 230px;
+  height: 100%;
+  border-right: 1px solid #f2f2f2; }
+  .sort_filter select {
+    color: #343e5c;
+    text-transform: uppercase;
+    border: 0;
+    font-weight: bold; }
+
+.keywords_filter {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 290px;
+      -ms-flex: 1 1 290px;
+          flex: 1 1 290px; }
+  .keywords_filter input {
+    width: 160px;
+    padding: 10px;
+    -webkit-border-radius: 20px;
+            border-radius: 20px;
+    border: 0;
+    background-color: #f0f2f7;
+    color: #b9bed1;
+    font-size: 13px;
+    font-weight: bold; }
+
+.price_filter {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 230px;
+      -ms-flex: 1 1 230px;
+          flex: 1 1 230px; }
+  .price_filter input {
+    width: 60px;
+    padding: 10px;
+    -webkit-border-radius: 20px;
+            border-radius: 20px;
+    border: 0;
+    background-color: #f0f2f7;
+    color: #343e5c;
+    font-weight: bold;
+    font-size: 13px; }
+
+.shipping_filter {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 180px;
+      -ms-flex: 1 1 180px;
+          flex: 1 1 180px; }
+  .shipping_filter input {
+    width: 20px;
+    height: 20px;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    vertical-align: middle;
+    background-color: #00e2aa;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10px" height="7px"><path fill-rule="evenodd"  fill="rgb(255, 255, 255)" d="M9.651,1.888 L4.984,6.642 C4.555,7.080 3.858,7.080 3.428,6.642 L0.317,3.472 C-0.112,3.035 -0.112,2.326 0.317,1.888 C0.747,1.450 1.443,1.450 1.873,1.888 L4.206,4.264 L8.095,0.302 C8.525,-0.135 9.222,-0.135 9.651,0.302 C10.081,0.741 10.081,1.450 9.651,1.888 Z"/></svg>');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+            background-size: cover;
+    -webkit-background-size: 0 0;
+            background-size: 0 0;
+    background-position: 50% 50%;
+    -webkit-transition: .3s  ease;
+    -o-transition: .3s  ease;
+    transition: .3s  ease; }
+    .shipping_filter input:checked {
+      -webkit-background-size: 50% 50%;
+              background-size: 50% 50%; }
+
+.shippto_filter {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 200px;
+      -ms-flex: 1 1 200px;
+          flex: 1 1 200px; }
+  .shippto_filter select {
+    color: #343e5c;
+    text-transform: uppercase;
+    border: 0;
+    font-weight: bold; }
 
 footer {
   background-color: red; }

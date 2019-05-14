@@ -77,9 +77,47 @@
           </div>
         </div>
       </div>
-      <main class="page_content"></main>
-      <footer></footer>
     </div>
+    <main class="page_content">
+      <div class="container_fluid">
+        <div class="filter_wrapper">
+          <div class="container">
+            <div class="sort_filter">
+              <div class="sort_filter_item">
+                <label>Sort By:</label>
+                <select>
+                  <option>Best match</option>
+                  <option>Lower price</option>
+                  <option>Higer price</option>
+                  <option>In stock</option>
+                </select>
+              </div>
+            </div>
+            <div class="keywords_filter">
+              <label>keywords</label>
+              <input value="Tablet">
+            </div>
+            <div class="price_filter">
+              <label>Price</label>
+              <input id="pricefrom" value="10">
+              <input id="priceto" value="1000">
+            </div>
+            <div class="shipping_filter">
+              <input type="checkbox">
+              <label>Free Shipping</label>
+            </div>
+            <div class="shippto_filter">
+              <label>Ship to:</label>
+              <select>
+                <option>USA</option>
+                <option>EU</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
     <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
     <script type="text/javascript" src="js/libs.min.js"></script>
     <script type="text/javascript" src="js/common.js"></script>

@@ -1,0 +1,84 @@
+.filter_wrapper
+  padding: 50px
+  .container
+    height: 80px
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    align-items: center
+    border-radius: 5px
+    background-color: rgba(255,255,255,1)
+    color: $linktwo
+    text-transform: uppercase
+    font-family: "montserratregular"
+    font-size: 12px
+    font-weight: bold
+
+.sort_filter
+  flex: 1 1 230px
+  height: 100%
+  border-right: 1px solid $border
+  display: flex
+  &_item
+  align-items: center
+  flex: 1 1 230px
+  height: 100%
+  border-right: 1px solid $border
+
+  select
+    color: $link
+    text-transform: uppercase
+    border: 0
+    font-weight: bold
+
+.keywords_filter
+  flex: 1 1 290px
+
+  input
+    width: 160px
+    padding: 10px
+    border-radius: 20px
+    border: 0
+    background-color: $input
+    color: $linktwo
+    font-size: 13px
+    font-weight: bold
+.price_filter
+  flex: 1 1 230px
+
+  input
+    width: 60px
+    padding: 10px
+    border-radius: 20px
+    border: 0
+    background-color: $input
+    color: $link
+    font-weight: bold
+    font-size: 13px
+
+.shipping_filter
+  flex: 1 1 180px
+  input
+    width: 20px
+    height: 20px
+    appearance: none
+    border-radius: 50%
+    vertical-align: middle
+    background-color: rgba(0,226,170,1);
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10px" height="7px"><path fill-rule="evenodd"  fill="rgb(255, 255, 255)" d="M9.651,1.888 L4.984,6.642 C4.555,7.080 3.858,7.080 3.428,6.642 L0.317,3.472 C-0.112,3.035 -0.112,2.326 0.317,1.888 C0.747,1.450 1.443,1.450 1.873,1.888 L4.206,4.264 L8.095,0.302 C8.525,-0.135 9.222,-0.135 9.651,0.302 C10.081,0.741 10.081,1.450 9.651,1.888 Z"/></svg>')
+    background-repeat: no-repeat
+    background-size: cover
+    background-size: 0 0
+    background-position: 50% 50%
+    transition: .3s  ease
+    &:checked
+      background-size: 50% 50%
+
+
+.shippto_filter
+  flex: 1 1 200px
+  select
+    color: $link
+    text-transform: uppercase
+    border: 0
+    font-weight: bold

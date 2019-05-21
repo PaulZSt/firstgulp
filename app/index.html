@@ -78,12 +78,12 @@
         </div>
       </div>
     </div>
-    <main class="page_content">
-      <div class="container_fluid">
-        <div class="filter_wrapper">
+    <main class="main_wrapper">
+      <div class="page_content">
+        <div class="container_fluid">
           <div class="container">
-            <div class="sort_filter">
-              <div class="sort_filter_item">
+            <div class="filter_wrapper">
+              <div class="sort_filter">
                 <label>Sort By:</label>
                 <select>
                   <option>Best match</option>
@@ -91,27 +91,114 @@
                   <option>Higer price</option>
                   <option>In stock</option>
                 </select>
+                <div class="select-arrow"></div>
+              </div>
+              <div class="keywords_filter">
+                <label>keywords</label>
+                <input value="Tablet">
+              </div>
+              <div class="price_filter">
+                <label>Price</label>
+                <input id="pricefrom" value="10">-
+                <input id="priceto" value="1000">
+              </div>
+              <div class="shipping_filter">
+                <input type="checkbox">
+                <label>Free Shipping</label>
+              </div>
+              <div class="shippto_filter">
+                <label>Ship to:</label>
+                <select>
+                  <option>USA</option>
+                  <option>EU</option>
+                </select>
+                <div class="select-arrow"></div>
               </div>
             </div>
-            <div class="keywords_filter">
-              <label>keywords</label>
-              <input value="Tablet">
+          </div>
+        </div>
+      </div>
+      <div class="container_fluid">
+        <div class="container">
+          <div class="content_wrapper">
+            <div class="sidebar_container">
+              <div class="sidebar_wrapper">
+                <div class="sidebar_block">
+                  <div id="accordion">
+                    <ul class="accordion_menu">
+                      <li>Top Sales</li>
+                      <li>Top Sales
+                        <ul class="submenu_items">
+                          <li><a href="">Top Sales</a></li>
+                          <li><a href="">Top Sales</a></li>
+                          <li><a href="">Top Sales</a></li>
+                          <li><a href="">Top Sales</a></li>
+                          <li><a href="">Top Sales</a></li>
+                        </ul>
+                      </li>
+                      <li>Top Sales</li>
+                      <li>Top Sales</li>
+                      <li>Top Sales
+                        <ul class="submenu_items">
+                          <li><a href="">Top Sales</a></li>
+                          <li><a href="">Top Sales</a></li>
+                          <li><a href="">Top Sales</a></li>
+                          <li><a href="">Top Sales</a></li>
+                          <li><a href="">Top Sales</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="sidebar_block">
+                  <div class="product_filter__available">
+                    <div class="product_filter__title">
+                      <h6>Available</h6>
+                    </div>
+                    <div class="product_filter__wrapper">
+                      <ul class="filter_items">
+                        <li>
+                          <input type="radio" name="available" id="In Storage" value="In Storage">
+                          <label for="In Storage">In Storage</label>
+                        </li>
+                        <li>
+                          <input type="radio" name="available" id="In Online-Shop" value="In Online-Shop">
+                          <label for="In Online-Shop">In Online-Shop</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product_filter__brands">
+                    <div class="product_filter__title">
+                      <h6>Brands</h6>
+                    </div>
+                    <div class="product_filter__wrapper">
+                      <ul class="filter_items">
+                        <li>
+                          <input type="checkbox" name="available" id="In Storage" value="In Storage">
+                          <label for="In Storage">In Storage</label>
+                        </li>
+                        <li>
+                          <input type="checkbox" name="available" id="In Online-Shop" value="In Online-Shop">
+                          <label for="In Online-Shop">In Online-Shop</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="sidebar_block"></div>
+                <div class="sidebar_block"></div>
+              </div>
             </div>
-            <div class="price_filter">
-              <label>Price</label>
-              <input id="pricefrom" value="10">
-              <input id="priceto" value="1000">
-            </div>
-            <div class="shipping_filter">
-              <input type="checkbox">
-              <label>Free Shipping</label>
-            </div>
-            <div class="shippto_filter">
-              <label>Ship to:</label>
-              <select>
-                <option>USA</option>
-                <option>EU</option>
-              </select>
+            <div class="content_container">
+              <div class="content_block"></div>
+              <div class="content_block"></div>
+              <div class="content_block"></div>
+              <div class="content_block"></div>
+              <div class="content_block"></div>
+              <div class="content_block"></div>
+              <div class="content_block"></div>
+              <div class="content_block"></div>
             </div>
           </div>
         </div>

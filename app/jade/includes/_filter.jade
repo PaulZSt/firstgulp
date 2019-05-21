@@ -1,20 +1,21 @@
 div.container_fluid
-    div.filter_wrapper
-        div.container
+    div.container
+        div.filter_wrapper
             div.sort_filter
-                div.sort_filter_item
-                    label Sort By:
-                    select
-                        option Best match
-                        option Lower price
-                        option Higer price
-                        option In stock
+                label Sort By:
+                select
+                    option Best match
+                    option Lower price
+                    option Higer price
+                    option In stock
+                div.select-arrow
             div.keywords_filter
                 label keywords
                 input(value="Tablet")
             div.price_filter
                 label Price
                 input(id="pricefrom", value="10")
+                | -
                 input(id="priceto", value="1000")
             div.shipping_filter
                 input(type="checkbox")
@@ -24,4 +25,5 @@ div.container_fluid
                 select
                     option USA
                     option EU
+                div.select-arrow
 

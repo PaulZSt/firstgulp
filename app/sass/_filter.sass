@@ -1,39 +1,54 @@
 .filter_wrapper
-  padding: 50px
-  .container
-    height: 80px
-    display: flex
-    flex-wrap: wrap
-    justify-content: space-between
-    align-items: center
-    border-radius: 5px
-    background-color: rgba(255,255,255,1)
-    color: $linktwo
-    text-transform: uppercase
-    font-family: "montserratregular"
-    font-size: 12px
-    font-weight: bold
+  height: 80px
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  align-items: center
+  border-radius: 5px
+  background-color: rgba(255,255,255,1)
+  color: $linktwo
+  text-transform: uppercase
+  font-family: "montserratregular"
+  font-size: 12px
+  font-weight: bold
+  margin-bottom: 30px
 
 .sort_filter
   flex: 1 1 230px
   height: 100%
+  position: relative;
   border-right: 1px solid $border
   display: flex
-  &_item
+  justify-content: space-between
   align-items: center
-  flex: 1 1 230px
-  height: 100%
-  border-right: 1px solid $border
+
+  label
+    padding: 20px 5px 20px 20px
 
   select
+    width: 130px
+    padding: 20px 20px 20px 5px
     color: $link
     text-transform: uppercase
     border: 0
     font-weight: bold
+    appearance: none;
+
+  .select-arrow
+    position: absolute
+    z-index: 1
+    right: 20px
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="11px" height="6px"> <path fill-rule="evenodd"  opacity="0.302" fill="rgb(52, 62, 92)" d="M9.701,1.829 L5.866,5.664 C5.629,5.902 5.310,5.992 5.000,5.963 C4.689,5.992 4.371,5.902 4.133,5.664 L0.298,1.829 C-0.125,1.405 -0.125,0.718 0.298,0.295 C0.722,-0.129 1.409,-0.129 1.832,0.295 L5.000,3.462 L8.167,0.295 C8.591,-0.129 9.278,-0.129 9.701,0.295 C10.125,0.718 10.125,1.405 9.701,1.829 Z"/></svg>')
+    background-repeat: no-repeat
+    width: 11px
+    height: 7px
+
 
 .keywords_filter
   flex: 1 1 290px
-
+  text-align: center
+  label
+    padding: 10px
   input
     width: 160px
     padding: 10px
@@ -45,10 +60,10 @@
     font-weight: bold
 .price_filter
   flex: 1 1 230px
-
   input
     width: 60px
     padding: 10px
+    margin: 10px
     border-radius: 20px
     border: 0
     background-color: $input
@@ -77,8 +92,25 @@
 
 .shippto_filter
   flex: 1 1 200px
+  position: relative
+  display: flex
+  padding: 15px
+  justify-content: space-between
+  align-items: center
+
   select
+    width: 70px
     color: $link
     text-transform: uppercase
     border: 0
     font-weight: bold
+    appearance: none;
+
+  .select-arrow
+    position: absolute
+    z-index: 1
+    right: 35px
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="11px" height="6px"> <path fill-rule="evenodd"  opacity="0.302" fill="rgb(52, 62, 92)" d="M9.701,1.829 L5.866,5.664 C5.629,5.902 5.310,5.992 5.000,5.963 C4.689,5.992 4.371,5.902 4.133,5.664 L0.298,1.829 C-0.125,1.405 -0.125,0.718 0.298,0.295 C0.722,-0.129 1.409,-0.129 1.832,0.295 L5.000,3.462 L8.167,0.295 C8.591,-0.129 9.278,-0.129 9.701,0.295 C10.125,0.718 10.125,1.405 9.701,1.829 Z"/></svg>')
+    background-repeat: no-repeat
+    width: 11px
+    height: 7px

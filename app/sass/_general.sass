@@ -11,11 +11,10 @@ body
   color: rgba(97, 97, 97, 1)
   font-family: "montserratregular"
   font-size: 15px
-  background-color: rgba(255, 255, 255, 1)
+  background-color: $background
 
 
-h1, h2, h3, h4, h5, h6
-  color: rgba(49, 49, 49, 1);
+
 
 
 h1
@@ -47,11 +46,11 @@ h5
   margin-bottom: calc(15px + 1.95vw) /*40px*/
 
 
-h6
-  font-weight: 600;
-  font-size: calc(15px + .23px); /*18px*/
-  margin-bottom: 15px;
 
+
+
+header
+  background-color: $white
 .headline h2 span
   position: relative;
   z-index: 2;
@@ -126,5 +125,15 @@ img
   background-color: rgba(56, 198, 149, 1)
   @include size(2em)
 
-.page_content
+.main_wrapper
   background-color: $background
+
+.content_wrapper
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  color: $linktwo
+  text-transform: uppercase
+  font-family: "montserratregular"
+  font-size: 12px
+  font-weight: bold

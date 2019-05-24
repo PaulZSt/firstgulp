@@ -9,24 +9,27 @@
     });
 }(jQuery));
 
-$(function() {
-    var Accordion = function(el) {
-        $("ul li").has("ul").css({color: 'red'});
-        $("ul li").children("ul").hide();
-        $("ul li").click(function (e) {
-            $(this).children().slideToggle();
-        })
-        //console.log(el);
-        //this.el = el;
+$(document).ready(function() {
+    function menu(selector){
+        $(`${selector} ul`).css('display', 'none');
 
-        // more then one submenu open?
-        //this.multiple = multiple;
+        var ul = $(`${selector} > li > a`).siblings('ul');
 
-        //var dropdownlink = this.el.find('.dropdownlink');
-        //dropdownlink.on('click',
-          //  { el: this.el, multiple: this.multiple },
-           // this.dropdown);
-    };
+        ul.siblings('a').on('click', function(e){
+            e.preventDefault();
+            var subUl = $(this).siblings('ul');
+            subUl.toggleClass('active');
 
-    var accordion = new Accordion($('.accordion_menu'));
-})
+            if(subUl.hasClass('active')){
+                subUl.css('display', 'block');
+            } else {
+                subUl.css('display', 'none');
+            }
+
+        });
+    }
+
+    menu(".accordion_menu");
+}(jQuery));
+
+

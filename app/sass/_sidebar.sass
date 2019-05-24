@@ -20,20 +20,27 @@
   list-style: none
 
   li
-     padding: 15px 20px
-     border-bottom: 1px solid $border
-     font-size: 13px
-     text-transform: capitalize
-     color: $link
-     background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="11px" height="6px"> <path fill-rule="evenodd"  opacity="0.302" fill="rgb(52, 62, 92)" d="M9.701,1.829 L5.866,5.664 C5.629,5.902 5.310,5.992 5.000,5.963 C4.689,5.992 4.371,5.902 4.133,5.664 L0.298,1.829 C-0.125,1.405 -0.125,0.718 0.298,0.295 C0.722,-0.129 1.409,-0.129 1.832,0.295 L5.000,3.462 L8.167,0.295 C8.591,-0.129 9.278,-0.129 9.701,0.295 C10.125,0.718 10.125,1.405 9.701,1.829 Z"/></svg>')
-     background-repeat: no-repeat
-     background-position: 90% 50%
+    width: 100%
+    padding: 15px 0px
+    border-bottom: 1px solid $border
+  li > a
+    width: 100%
+    padding: 0 20px
+    font-size: 13px
+    text-transform: capitalize
+    color: $link
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="11px" height="6px"> <path fill-rule="evenodd"  opacity="0.302" fill="rgb(52, 62, 92)" d="M9.701,1.829 L5.866,5.664 C5.629,5.902 5.310,5.992 5.000,5.963 C4.689,5.992 4.371,5.902 4.133,5.664 L0.298,1.829 C-0.125,1.405 -0.125,0.718 0.298,0.295 C0.722,-0.129 1.409,-0.129 1.832,0.295 L5.000,3.462 L8.167,0.295 C8.591,-0.129 9.278,-0.129 9.701,0.295 C10.125,0.718 10.125,1.405 9.701,1.829 Z"/></svg>')
+    background-repeat: no-repeat
+    background-position: 100% 50%
+
+
 
 .submenu_items
   background-color: $input
-
   li
-     background-image: none
+    background-image: none
+    a
+      color: $linktwo
 
 .product_filter__title
     padding: 15px 20px

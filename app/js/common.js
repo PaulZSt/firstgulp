@@ -18,6 +18,8 @@ $(document).ready(function() {
         ul.siblings('a').on('click', function(e){
             e.preventDefault();
             var subUl = $(this).siblings('ul');
+            var activeLi = $(this).parent('li');
+            activeLi.toggleClass('noborder');
             subUl.toggleClass('active');
 
             if(subUl.hasClass('active')){

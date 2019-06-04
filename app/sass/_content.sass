@@ -1,16 +1,79 @@
 .content_container
-  width: 840px
-  display: flex
-  flex-wrap: wrap
-  justify-content: space-between
+  max-width: 840px
+  display: grid
+  grid-gap: 30px
+  grid-template-columns: 1fr 1fr 1fr
+  grid-template-rows: 380px 380px 380px
+  justify-content: stretch
+  margin-bottom: 30px
 .content_block
-  flex: 0 1 260px
-  height: 200px
   border-radius: 5px
   background-color: $white
-  margin-bottom: 30px
+  text-align: center
   img
-    width: 270px
+
+    padding: 15px
     height: 200px
+
+  h4
+    font-size: 16px
+    color: $title
+
+  p
+    color: $text
+
+    margin: 15px
+
+  .price_old
+    color: $link
+    text-decoration: line-through
+    display: block
+    padding: 10px
+    font-size: 14px
+
+
+  .price_new
+    color: $link
+    color: darkred
+    font-size: 14px
+
+
+.content_ads
+  grid-column-start: 2
+  grid-column-end: 4
+  img
+    height: auto
+    padding: 0
+
+
+
+  h4
+    font-size: 16px
+    color: $title
+    text-align: left
+    margin: 15px
+
+  p
+    color: $text
+    text-align: left
+    margin: 15px
+  .product_options
+    display: flex
+    justify-content: flex-end
+    align-items: center
+    .product_buttons
+      border: 2px solid $border
+      margin: -60px 20px 0 0
+      border-radius: 15px
+      padding: 10px
+
+
+      .options
+        padding: 10px 30px
+        border-right: 2px solid $border
+      .link_buy
+        padding: 30px
+
+
 
 

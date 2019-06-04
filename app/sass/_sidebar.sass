@@ -11,6 +11,8 @@
         margin-bottom: 30px
 
 
+
+
 .accordion_menu
   width: 100%
   max-width: 350px
@@ -23,24 +25,55 @@
     width: 100%
     padding: 15px 0px
     border-bottom: 1px solid $border
-  li > a
+
+  .noborder
+    border: none
+    padding-bottom: 0
+
+
+.accordion_menu > li > a
     width: 100%
+    display: block;
+    position: relative;
     padding: 0 20px
     font-size: 13px
     text-transform: capitalize
+    text-decoration: none
     color: $link
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="11px" height="6px"> <path fill-rule="evenodd"  opacity="0.302" fill="rgb(52, 62, 92)" d="M9.701,1.829 L5.866,5.664 C5.629,5.902 5.310,5.992 5.000,5.963 C4.689,5.992 4.371,5.902 4.133,5.664 L0.298,1.829 C-0.125,1.405 -0.125,0.718 0.298,0.295 C0.722,-0.129 1.409,-0.129 1.832,0.295 L5.000,3.462 L8.167,0.295 C8.591,-0.129 9.278,-0.129 9.701,0.295 C10.125,0.718 10.125,1.405 9.701,1.829 Z"/></svg>')
-    background-repeat: no-repeat
-    background-position: 100% 50%
+
+
+.accordion_menu > li > a:after
+        content: ""
+        position: absolute
+        right: 20px
+        width: 10px
+        height: 10px
+        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="11px" height="6px"> <path fill-rule="evenodd"  opacity="0.302" fill="rgb(52, 62, 92)" d="M9.701,1.829 L5.866,5.664 C5.629,5.902 5.310,5.992 5.000,5.963 C4.689,5.992 4.371,5.902 4.133,5.664 L0.298,1.829 C-0.125,1.405 -0.125,0.718 0.298,0.295 C0.722,-0.129 1.409,-0.129 1.832,0.295 L5.000,3.462 L8.167,0.295 C8.591,-0.129 9.278,-0.129 9.701,0.295 C10.125,0.718 10.125,1.405 9.701,1.829 Z"/></svg>')
+        background-repeat: no-repeat
+        background-position: 50% 50%
+
+
+.accordion_menu > li.noborder > a:after
+        transition: all 0.5s ease
+        transform: rotate(-90deg);
+
+
+
+.accordion_menu li .active
+
 
 
 
 .submenu_items
   background-color: $input
+  margin: 10px 0 0 0;
   li
     background-image: none
+    border-bottom: 1px solid $bordertwo
     a
       color: $linktwo
+      text-decoration: none
+      padding: 0 20px
 
 .product_filter__title
     padding: 15px 20px
@@ -58,4 +91,85 @@
 
 
 
+
+
+.product_filter__brands, .filter_condition
+  input
+    width: 20px
+    height: 20px
+    margin-right: 15px
+    appearance: none
+    border-radius: 5px
+    vertical-align: middle
+    border: 2px solid $bordertwo
+    background-size: cover
+    background-size: 0 0
+    background-position: 50% 50%
+    transition: .3s  ease
+    &:checked
+        border: none
+        background-color: rgba(0,226,170,1)
+        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10px" height="7px"><path fill-rule="evenodd"  fill="rgb(255, 255, 255)" d="M9.651,1.888 L4.984,6.642 C4.555,7.080 3.858,7.080 3.428,6.642 L0.317,3.472 C-0.112,3.035 -0.112,2.326 0.317,1.888 C0.747,1.450 1.443,1.450 1.873,1.888 L4.206,4.264 L8.095,0.302 C8.525,-0.135 9.222,-0.135 9.651,0.302 C10.081,0.741 10.081,1.450 9.651,1.888 Z"/></svg>')
+        background-repeat: no-repeat
+        background-size: 50% 50%
+
+.product_filter__available, .filter_delivery
+    .radiobox
+      display: block
+      position: relative
+      padding-left: 35px
+      margin-bottom: 12px
+      cursor: pointer
+      line-height: 20px
+      -webkit-user-select: none
+      -moz-user-select: none
+      -ms-user-select: none
+      user-select: none
+      input
+        position: absolute
+        opacity: 0
+        cursor: pointer
+
+    /* Hide the browser's default radio button
+
+    /* Create a custom radio button
+
+    .checkmark
+      position: absolute
+      top: 0
+      left: 0
+      height: 18px
+      width: 18px
+      border: 2px solid $bordertwo
+      border-radius: 50%
+
+    /* On mouse-over, add a grey background color
+
+    .radiobox
+      input:checked
+        background-color: #fff
+
+    /* When the radio button is checked, add a blue background
+
+    /* Create the indicator (the dot/circle - hidden when not checked)
+
+    .checkmark:after
+      content: ""
+      position: absolute
+      display: none
+
+    /* Show the indicator (dot/circle) when checked
+
+    .radiobox
+      input:checked ~ .checkmark:after
+        display: block
+      .checkmark:after
+        top: 3px
+        left: 3px
+        width: 8px
+        height: 8px
+        border-radius: 50%
+        background: $radio
+
+    /* Style the indicator (dot/circle)
 

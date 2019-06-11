@@ -6,17 +6,21 @@ header .container_fluid
 
 .header__nav
   padding: 35px 45px
+  height: 18px
   border-right: 1px solid $border
+
+
 
 
 .header__nav_line
   position: relative
   padding: 1px 10px
   border-bottom: 2px solid $link
+  transform: translateY(8px);
 
 .header__nav_line:before
   content: ''
-  top: 15px
+  top: 0
   right: 0
   left: 0
   position: absolute
@@ -24,10 +28,11 @@ header .container_fluid
   width: 20px
   height: 2px
   background-color: $link;
+  transition: 0.4s ease-in
 
 .header__nav_line:after
   content: ''
-  top: 9px
+  bottom: 0
   right: 0
   left: 0
   position: absolute
@@ -35,6 +40,21 @@ header .container_fluid
   width: 20px
   height: 2px
   background-color: $link;
+  transition: 0.4s ease-in
+
+
+
+.header__nav_line.animate:before
+  bottom: 0;
+  transform: rotate(-45deg)
+  transition: 0.4s ease-in
+
+
+.header__nav_line.animate:after
+  top: 25px;
+  transform: rotate(45deg)
+  -webkit-transition: top .3s cubic-bezier(.23, 1, .32, 1), -webkit-transform .3s .3s cubic-bezier(.23, 1, .32, 1)
+  transition: 0.4s ease-in
 
 
 .header
@@ -98,6 +118,27 @@ header .container_fluid
 
 .header_cart
   padding: 15px 15px
+  p
+    color: $link
+    font-weight: bold
+  span
+
+    display: inline-block
+    width: 24px
+    margin-left: 10px
+    padding: 4px
+    background-color: $cart
+    border-radius:  12px
+    text-align: center
+
+  .cart_icon
+    position: absolute;
+    width: 20px
+    height: 20px
+    margin-left: -24px
+    background-repeat: no-repeat
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='19px' height='17px'%3E%3Cpath fill-rule='evenodd' fill='rgb(52, 62, 92)' d='M18.000,4.052 L17.000,7.040 C16.630,7.878 16.105,9.032 15.000,9.032 L5.360,9.032 L5.478,10.028 L18.000,10.028 L17.000,12.019 L4.352,12.019 L3.709,12.095 L2.522,2.061 L1.000,2.061 C0.448,2.061 -0.000,1.615 -0.000,1.066 C-0.000,0.515 0.352,0.008 0.905,0.008 L4.291,-0.006 L4.545,2.145 C4.670,2.096 4.812,2.061 5.000,2.061 L17.000,2.061 C18.105,2.061 18.000,2.953 18.000,4.052 ZM6.000,13.015 C7.105,13.015 8.000,13.906 8.000,15.007 C8.000,16.107 7.105,16.998 6.000,16.998 C4.895,16.998 4.000,16.107 4.000,15.007 C4.000,13.906 4.895,13.015 6.000,13.015 ZM14.000,13.015 C15.105,13.015 16.000,13.906 16.000,15.007 C16.000,16.107 15.105,16.998 14.000,16.998 C12.896,16.998 12.000,16.107 12.000,15.007 C12.000,13.906 12.896,13.015 14.000,13.015 Z'/%3E%3C/svg%3E");
+    background-position: 0% 50%
 
 .header_register
   padding: 10px 15px
@@ -111,6 +152,7 @@ header .container_fluid
   display: flex
   justify-content: space-between
   align-items: center
+  flex-wrap: wrap
   a
     font-family: "montserratregular"
     font-size: 14px
@@ -123,29 +165,38 @@ header .container_fluid
       color: $link
 
 
+
 .header_bottom_menu
   border-right: 1px solid $border
+  flex: 0 1 800px
 
 .header_main_menu
-  padding: 20px 15px
+  padding: 0px 15px
   display: flex
   justify-content: flex-start
-  width: 800px
 
 
-.header_main_menu ul
-  padding: 20px 15px
 
 
 .header_main_menu li
   padding: 20px 15px
 
 .header_main_menu .last_item
-  margin-left: auto;
+  margin-left: auto
 
 .header_bottom_search
+  flex: 0 1 200px
+  margin-left: 40px
+  input
+    margin-left: 10px
+    color: $linktwo
+    font-weight: bold
+    border: none
 
-.search_icon:before
+.search_icon
+  position: absolute
+  margin: 3px 0 0 -20px
   width: 20px
   height: 20px
-  content: '\1F50E'
+  background-repeat: no-repeat
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='13px' height='13px'%3E%3Cpath fill-rule='evenodd' fill='rgb(52, 62, 92)' d='M12.614,12.611 C12.113,13.110 11.302,13.110 10.801,12.611 L8.158,9.967 C6.087,11.222 3.360,10.971 1.571,9.182 C-0.531,7.079 -0.531,3.670 1.571,1.568 C3.674,-0.536 7.083,-0.536 9.185,1.568 C10.974,3.357 11.225,6.084 9.971,8.154 L12.614,10.799 C13.115,11.297 13.115,12.109 12.614,12.611 ZM7.735,3.018 C6.433,1.716 4.323,1.716 3.022,3.018 C1.720,4.319 1.720,6.430 3.022,7.731 C4.323,9.034 6.433,9.034 7.735,7.731 C9.037,6.430 9.037,4.319 7.735,3.018 Z'/%3E%3C/svg%3E");

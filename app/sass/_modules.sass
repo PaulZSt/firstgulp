@@ -1,0 +1,43 @@
+.modules
+  width: 100%
+  border-radius: 5px
+  background-color: $white
+  text-align: center
+  margin-bottom: 50px
+  .module_title
+    padding: 23px
+    border-bottom: 1px solid $border
+    color: $link
+    font-weight: bold
+  .bestsellers_content
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+  .bestsellers_item
+    background-color: $white
+    flex: 1 0 270px
+    min-width: 150px
+    border-right: 1px solid $border
+    img
+      padding: 15px
+      height: 200px
+      &:hover
+        filter: brightness(1.4);
+
+    h4
+      font-size: 16px
+      color: $title
+
+    p
+      color: $text
+      margin: 15px
+
+    .price_old
+      color: $link
+      text-decoration: line-through
+      display: block
+      padding: 10px
+      font-size: 14px
+    .price_new
+      color: $link
+      font-size: 14px
